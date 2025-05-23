@@ -34,7 +34,7 @@ def main():
         # Generate a random number between the minimum num and the max num
         num = random.randint(constants.MIN_NUM, constants.MAX_NUM)
 
-        # Add the generated number to the list
+        # Add the generated num to the list
         array.append(num)
         # Display the random number generated
         print(f"The random number generated is: {num}")
